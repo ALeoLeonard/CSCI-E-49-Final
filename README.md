@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates a cloud-based application using Node.js, integrated with AWS Cognito for authentication and authorization. It showcases the implementation of OAuth callback handling, user group-based data retrieval, and secure data presentation.
+This project demonstrates a cloud-based application using Node.js, integrated with AWS Cognito for authentication and authorization. It showcases the implementation of OpenID Connect callback handling, user group-based data retrieval, and secure data presentation.
 
 ## Features
 
