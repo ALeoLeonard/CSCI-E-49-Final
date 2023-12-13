@@ -41,7 +41,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Define the route for the root path '/'
-app.get('/home', publicDataController.renderPublicDataPage);
+app.get('/', publicDataController.renderPublicDataPage);
 
 // Using the OAuth callback route
 app.get('/oauth-callback', oauthCallbackRoute);
