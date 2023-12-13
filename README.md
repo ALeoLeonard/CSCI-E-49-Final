@@ -25,11 +25,11 @@ This project demonstrates a cloud-based application using Node.js, integrated wi
    npm install
    ```
 3. Set up your .env file with the required environment variables:
-   COGNITO_CLIENT_ID
-   COGNITO_CLIENT_SECRET
-   COGNITO_REDIRECT_URI
-   COGNITO_TOKEN_URL
-   Database credentials
+  - COGNITO_CLIENT_ID
+  - COGNITO_CLIENT_SECRET
+  - COGNITO_REDIRECT_URI
+  - COGNITO_TOKEN_URL
+  - Database credentials
 
 ## Running the Application
 To start the application:
