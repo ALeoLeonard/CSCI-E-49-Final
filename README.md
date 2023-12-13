@@ -34,7 +34,7 @@ This project demonstrates a cloud-based application using Node.js, integrated wi
 ## Running the Application
 To start the application:
 ```shell
-   npm install
+npm start
    ```
 
 ## Usage
