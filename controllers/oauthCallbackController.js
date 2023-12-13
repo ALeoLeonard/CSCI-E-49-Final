@@ -25,7 +25,7 @@ exports.handleOauthCallback = (req, res) => {
         console.error('Error verifying ID token:', verifyError);
         return res.status(500).send('An error occurred during token verification.');
       }
-      
+
       console.log('Decoded token:', decoded); // Log the decoded token
 
       // Fetch all data and then filter based on group membership
