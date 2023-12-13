@@ -39,7 +39,8 @@ exports.renderPublicDataPage = (req, res) => {
             <html lang="en">
                 ${htmlHeadContent}
                 <body>
-                    <h1>Public Data</h1>
+                    <h1>Chandra Observation Search</h1>
+                    <h2>Public Data</h2>
                     ${generateTable(publicData)}
                     <a href="https://cscie49.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=10obrhnincsni076hep1ku17b3&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2F44.198.175.14%3A3000%2Foauth-callback" class="signin-button">Sign In</a>
                 </body>
