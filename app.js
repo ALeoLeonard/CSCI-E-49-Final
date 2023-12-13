@@ -6,6 +6,7 @@ const helmet = require('helmet');
 const csurf = require('csurf');
 const cookieParser = require('cookie-parser'); // Needed for csurf
 const oauthCallbackRoute = require('./routes/oauthCallbackRoute');
+const publicDataController = require('../controllers/publicDataController');
 
 const app = express();
 
