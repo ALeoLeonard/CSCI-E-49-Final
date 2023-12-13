@@ -21,9 +21,9 @@ This project demonstrates a cloud-based application using Node.js, integrated wi
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory and install dependencies:
-   ```shell
-   npm install
-   ```
+ ```shell
+ npm install
+ ```
 3. Set up your .env file with the required environment variables:
   - COGNITO_CLIENT_ID
   - COGNITO_CLIENT_SECRET
