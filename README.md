@@ -38,8 +38,8 @@ npm start
    ```
 
 ## Usage
-Access the public data endpoint at /.
-Trigger the OIDC flow by navigating to the Cognito Authorization Endpoint.
+- Access the public data endpoint at /.
+- Trigger the OIDC flow by navigating to the Cognito Authorization Endpoint.
 
 ## License
 This project is licensed under the MIT License.
