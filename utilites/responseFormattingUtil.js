@@ -33,7 +33,7 @@ exports.formatResponse = (proprietaryData, publicData) => {
     <html lang="en">
       ${htmlHeadContent}
       <body>
-        <h1>Chandra Observation Search</h1>
+        <h1>Chandra Observation</h1>
         ${proprietaryData.length > 0 ? `
           <h2>Proprietary Data</h2>
           ${generateTable(proprietaryData)}
