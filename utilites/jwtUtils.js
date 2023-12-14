@@ -2,7 +2,7 @@
 // JWT utility functions
 const jwksClient = require('jwks-rsa');
 
-// Configuration for jwksClient, this should be replaced with actual configuration
+// Configuration for jwksClient
 const client = jwksClient({
   jwksUri: 'https://cognito-idp.us-east-1.amazonaws.com/us-east-1_uPczcyKxN/.well-known/jwks.json'
 });
