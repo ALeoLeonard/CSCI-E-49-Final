@@ -31,7 +31,7 @@ const limiter = rateLimit({
 });
 
 // Apply rate limiting to all requests
-// app.use(limiter);
+app.use(limiter);
 
 // // Setup for CSRF protection
 app.use(cookieParser()); // Required for 'csurf'
