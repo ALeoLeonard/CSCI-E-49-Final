@@ -13,12 +13,12 @@ const app = express();
 // Apply Helmet to all requests with CSP
 app.use(helmet({
   contentSecurityPolicy: false
-  // {
-  //   directives: {
-  //     defaultSrc: ["'self'"], // Customize this based on your needs
-  //     // Add other directives as needed
-  //   }
-  // }
+  {
+    directives: {
+      defaultSrc: ["'self'"],
+      // Add other directives as needed
+    }
+  }
 }));
 
 // Enable if you're behind a reverse proxy (Heroku, Bluemix, AWS ELB, Nginx, etc)
@@ -34,8 +34,8 @@ const limiter = rateLimit({
 // app.use(limiter);
 
 // // Setup for CSRF protection
-// app.use(cookieParser()); // Required for 'csurf'
-// app.use(csurf({ cookie: true })); // CSRF protection using cookies
+app.use(cookieParser()); // Required for 'csurf'
+app.use(csurf({ cookie: true })); // CSRF protection using cookies
 
 // Parsing JSON and urlencoded data
 app.use(express.json());
